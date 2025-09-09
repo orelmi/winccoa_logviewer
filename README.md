@@ -42,7 +42,7 @@ To use the log viewer:
 
 Here are two screenshots showing the app in action:
 
-![Logs page](https://github.com/orelmi/winccoa_logviewer/assets/page_logs.png)
+![Logs page](https://github.com/orelmi/winccoa_logviewer/tree/main/assets/page_logs.png)
 
-![LogViewer page](https://github.com/orelmi/winccoa_logviewer/assets/page_logviewer.png)
+![LogViewer page](https://github.com/orelmi/winccoa_logviewer/tree/main/assets/page_logviewer.png)
 
