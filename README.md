@@ -42,7 +42,19 @@ To use the log viewer:
 
 Here are two screenshots showing the app in action:
 
-![Logs page](https://github.com/orelmi/winccoa_logviewer/tree/main/assets/page_logs.png)
+The list of files
+![Logs page](assets/page_logs.png)
 
-![LogViewer page](https://github.com/orelmi/winccoa_logviewer/tree/main/assets/page_logviewer.png)
+The log viewer in action
+![LogViewer page](assets/page_logviewer.png)
 
+## Troubleshooting
+
+### Common Issues
+
+1. Only the last 1000 lines are displayed by default due to performance issue. Increasing this limit could cause load on the server and degrade the performances in production.
+
+
+## Author
+
+Created by Aurélien Michon, 2025
