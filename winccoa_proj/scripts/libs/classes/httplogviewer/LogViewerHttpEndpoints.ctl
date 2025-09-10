@@ -1,11 +1,3 @@
-// $License: NOLICENSE
-//--------------------------------------------------------------------------------
-/**
-  @file $relPath
-  @copyright $copyright
-  @author hflasch
-*/
-
 #uses "CtrlPv2Admin"
 #uses "pmon"
 #uses "CtrlHTTP"
@@ -133,7 +125,7 @@ class LogViewerHttpEndpoints
   private static bool isEnabled()
   {
     bool isDflt;
-    bool enabled =paCfgReadValue(CFG_PATH, "httpLogViewer", "enabled", true, isDflt);
+    bool enabled =paCfgReadValueDflt(CONFIG_REL_PATH + "config", "httpLogViewer", "enabled", true, isDflt);
     return enabled;
   }
 };
